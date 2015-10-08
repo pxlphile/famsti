@@ -1,0 +1,239 @@
+@charset "utf-8";
+body {
+	background: white;
+	width:100%;
+	margin: 0 auto;
+	font: 200%/1.4 Humanst521_roman, Verdana, Arial, Helvetica, sans-serif;
+}
+
+body .top-bar {
+	background-color: #a60a17;
+}
+
+body .bottom-bar {
+	padding-bottom: 15px;
+}
+
+body .bottom-bar img {
+	padding-top: 10px;
+}
+
+.no-border-radius {
+	border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+}
+
+.fam-brown-bg {
+	background-color: #41261d;
+}
+
+p {
+	color: #3F2D17 !important;
+}
+
+.fam-red {
+	color: #a60a17 !important;
+}
+
+img.logo-size {
+	height: 138px;
+	width: 340px;
+}
+
+img.img-responsive.img-icon {
+	max-width: 200px;
+	height: auto; 
+}
+
+.navbar {
+	margin: 0 auto;
+	border: 0px;
+}
+
+.deko {
+	padding: 0 !important;
+	min-width: 320px;
+	background-color: white;
+}
+
+.noBackground {
+	background-color:white !important;
+}
+
+.textTitle {
+	font-family: Humanst521_roman, Verdana, Arial, Helvetica, sans-serif;
+}
+
+a img {
+	border: none;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:link,
+.navbar-default .navbar-nav > li > a:visited {
+	color: white;
+}
+
+a:link, a:visited {
+	color: #3F2D17;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+.leftColumn {
+	background-color: #f5eede;
+}
+.centerColumn {
+	background-color: #fdfaf3;
+}
+.rightColumn {
+	background-color: #e3dfd6;
+}
+
+h2 { font-family: "Maiandra_demi_bold", Verdana, Arial, Helvetica, sans-serif; }
+
+.willkommen-row {
+	height: 380px;
+}
+.osteo-row {
+	height: 444px;
+}
+.dorn-row {
+	height: 626px;
+}
+.three-row-padding {
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+}
+
+.textRow {
+	padding: 20px;
+}
+
+.firstSubRow {
+	background-color: #f7f6f4;
+	padding: 20px;
+	text-align: center
+}
+.secondSubRow {
+	background-color: #bde5e8;
+	padding: 20px;
+	text-align: center
+}
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.navbar-default {
+	background-color: #a60a17;
+}
+
+.navbar-dark {
+	background-color: #41261d;
+}
+
+#mobile-navbar {
+	width:200px !important;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+.jumbotron img {
+	padding-top: 0px;;	
+}
+.navbar-brand {
+	padding-left: 0px;
+	height: auto;
+	padding: 0;
+}
+
+nav.navbar, .dhmenu, .immenu {
+	display: block;
+	vertical-align: bottom;
+}
+
+nav.navbar .immenu {
+	height: 20px !important;
+	background-color: #41261d;
+}
+
+nav.navbar .dhmenu {
+	height: 160px;
+	background-color: #a60a17;
+}
+
+.dhmenu li a {
+	height: 160px;
+	padding-top: 30px;
+}
+
+.immenu li a {
+	padding-top: 10px;
+}
+
+.dhmenu li a,
+.immenu li a {
+	display: block;
+	text-decoration: none;
+
+	font-size:16px;
+	font-family: Humanst521_bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.dhmenu li a:link, 
+.immenu li a:link,
+.dhmenu li a:visited,
+.immenu li a:visited {
+	color: white;
+}
+.dhmenu li a:hover, .dhmenu li a:active, .dhmenu li a:focus, .dhmenu li.active a, 
+.immenu li a:hover, .immenu li a:active, .immenu li a:focus, .immenu li.active a {
+	background-color: white !important;
+	color: #41261d !important;
+}
+
+.dhmenu li a.ic-home:before                    { content:url('../bilder/icons/g_in.png'); display:block; }
+.dhmenu li.active a.ic-home:before,
+.dhmenu li a.ic-home:hover:before              { content:url('../bilder/icons/g_ac.png'); display:block; }
+
+.dhmenu li a.ic-what-we-do:before              { content:url('../bilder/icons/f_in.png'); display:block; }
+.dhmenu li.active a.ic-what-we-do:before,
+.dhmenu li a.ic-what-we-do:hover:before        { content:url('../bilder/icons/f_ac.png'); display:block; }
+
+.dhmenu li a.ic-projects:before                { content:url('../bilder/icons/e_in.png'); display:block; }
+.dhmenu li.active a.ic-projects:before,
+.dhmenu li a.ic-projects:hover:before          { content:url('../bilder/icons/e_ac.png'); display:block; }
+
+.dhmenu li a.ic-donate-now:before              { content:url('../bilder/icons/d_in.png'); display:block; }
+.dhmenu li.active a.ic-donate-now:before,
+.dhmenu li a.ic-donate-now:hover:before        { content:url('../bilder/icons/d_ac.png'); display:block; }
+
+.center-block, .center-block * {
+	text-align: center;
+	padding: 10px;
+}
+.slicknav_menu{
+	display:none;
+}
+
+.dhmenu li.slicknav-imprint {
+	display:none;
+}

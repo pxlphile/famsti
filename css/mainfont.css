@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Humanst521_bold';
+    src: url('../fonts/humanst521_bt_bold.eot');
+    src: url('../fonts/humanst521_bt_bold.eot') format('embedded-opentype'),
+         url('../fonts/humanst521_bt_bold.woff2') format('woff2'),
+         url('../fonts/humanst521_bt_bold.woff') format('woff'),
+         url('../fonts/humanst521_bt_bold.ttf') format('truetype'),
+         url('../fonts/humanst521_bt_bold.svg#humanst521_bt_bold') format('svg');
+}
+@font-face {
+    font-family: 'Humanst521_roman';
+    src: url('../fonts/humanst521_bt_roman.eot');
+    src: url('../fonts/humanst521_bt_roman.eot') format('embedded-opentype'),
+         url('../fonts/humanst521_bt_roman.woff2') format('woff2'),
+         url('../fonts/humanst521_bt_roman.woff') format('woff'),
+         url('../fonts/humanst521_bt_roman.ttf') format('truetype'),
+         url('../fonts/humanst521_bt_roman.svg#humanst521_bt_roman') format('svg');
+}
+@font-face {
+    font-family: 'Maiandra_demi_bold';
+    src: url('../fonts/maiandra_gd_demi_bold.eot');
+    src: url('../fonts/maiandra_gd_demi_bold.eot') format('embedded-opentype'),
+         url('../fonts/maiandra_gd_demi_bold.woff2') format('woff2'),
+         url('../fonts/maiandra_gd_demi_bold.woff') format('woff'),
+         url('../fonts/maiandra_gd_demi_bold.ttf') format('truetype'),
+         url('../fonts/maiandra_gd_demi_bold.svg#maiandra_gd_demi_bold') format('svg');
+}
+@font-face {
+    font-family: 'Maiandra_regular';
+    src: url('../fonts/maiandra_gd_regular.eot');
+    src: url('../fonts/maiandra_gd_regular.eot') format('embedded-opentype'),
+         url('../fonts/maiandra_gd_regular.woff2') format('woff2'),
+         url('../fonts/maiandra_gd_regular.woff') format('woff'),
+         url('../fonts/maiandra_gd_regular.ttf') format('truetype'),
+         url('../fonts/maiandra_gd_regular.svg#maiandra_gd_regular') format('svg');
+}
+
+
+
