@@ -34,7 +34,7 @@ ul.nav a { zoom: 1; }  /* Mit der zoom-Eigenschaft erhält IE den Auslöser hasL
 <body>
 <!-- TemplateBeginEditable name="header" -->
 <div class="container-fluid top-bar">
-	<nav class="navbar navbar-default"> <a class="navbar-brand" href="http://www..de/index.html"> <img src="../bilder/logo_familienstiftung_wolfsburg.png" class="img-responsive" alt="Logo Familienstiftung Wolfsburg" /> </a>
+	<nav class="navbar navbar-default"> <img src="../bilder/logo_familienstiftung_wolfsburg.png" class="img-responsive" alt="Logo Familienstiftung Wolfsburg" /> 
 		<div id="navbar" class="navbar fltrt">
 			<ul class="dhmenu nav navbar-nav">
 				<li class="active"><a class="scroll ic-home" href="../index.html">Willkommen</a> </li>
