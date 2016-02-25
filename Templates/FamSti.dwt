@@ -40,7 +40,7 @@ ul.nav a { zoom: 1; }  /* Mit der zoom-Eigenschaft erhält IE den Auslöser hasL
 				<li class="active"><a class="scroll ic-home" href="../index.html">Willkommen</a> </li>
 				<li><a class="scroll ic-what-we-do" href="../was-wir-tun.html">Was wir tun</a> </li>
 				<li><a class="scroll ic-projects" href="../projekte.html">Projekte</a> </li>
-				<li><a class="scroll ic-donate-now" href="../jetzt-spenden.html">Jetzt Helfen</a> </li>
+				<li><a class="scroll ic-donate-now" href="../jetzt-spenden.html">Jetzt spenden</a> </li>
 				
 				<li class="slicknav-imprint"><a class="scroll" href="../ansprechpartner.html">Ansprechpartner</a></li>
 				<li class="slicknav-imprint"><a class="scroll" href="../grundlagen.html">Grundlagen</a></li>
