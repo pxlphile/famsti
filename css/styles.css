@@ -96,6 +96,18 @@ a:link, a:visited {
 a:hover, a:active, a:focus {
 	text-decoration: none;
 }
+
+a.no-image-link-decoration, 
+a.no-image-link-decoration:link,
+a.no-image-link-decoration:visited {
+	text-decoration: none !important;
+}
+a.no-image-link-decoration:hover, 
+a.no-image-link-decoration:active, 
+a.no-image-link-decoration:focus {
+		text-decoration: underline !important;
+}
+
 .leftColumn {
 	background-color: #f5eede;
 }
@@ -106,7 +118,9 @@ a:hover, a:active, a:focus {
 	background-color: #e3dfd6;
 }
 
-h2 { font-family: "Maiandra_demi_bold", Verdana, Arial, Helvetica, sans-serif; }
+h2 { 
+	font: 130%/1.4 "Maiandra_demi_bold", Verdana, Arial, Helvetica, sans-serif;
+}
 
 .willkommen-row {
 	height: 380px;
@@ -220,7 +234,7 @@ nav.navbar .dhmenu {
 .dhmenu li a:hover, .dhmenu li a:active, .dhmenu li a:focus, .dhmenu li.active a, 
 .immenu li a:hover, .immenu li a:active, .immenu li a:focus, .immenu li.active a {
 	background-color: white !important;
-	color: #41261d !important;
+	color: #a60a17 !important;
 }
 
 .dhmenu li a.ic-home:before                    { content:url('../bilder/icons/g_in.png'); display:block; }
