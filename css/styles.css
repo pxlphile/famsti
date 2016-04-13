@@ -83,6 +83,14 @@ a img {
 	border: none;
 }
 
+ul.no-bullet {
+	list-style: none;
+}
+
+ul.no-bullet li {
+	margin-bottom: 6px;
+}
+
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:link,
 .navbar-default .navbar-nav > li > a:visited {
@@ -120,6 +128,10 @@ a.no-image-link-decoration:focus {
 
 h2 { 
 	font: 130%/1.4 "Maiandra_demi_bold", Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3, .wie-h3 { 
+	font: 115%/1.4 "Maiandra_demi_bold", Verdana, Arial, Helvetica, sans-serif;
 }
 
 .willkommen-row {
