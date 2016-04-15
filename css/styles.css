@@ -25,12 +25,20 @@ body .bottom-bar img {
    -moz-border-radius: 0px !important;
 }
 
-.fam-brown-bg {
-	background-color: #41261d;
-}
-
 p {
 	color: #3F2D17 !important;
+}
+
+.abstand-2, .abstand-2-2 {
+	margin-top: 20px;
+}
+
+.abstand-2-2 {
+	margin-bottom: 20px;
+}
+
+.fam-brown-bg {
+	background-color: #41261d;
 }
 
 .fam-red {
@@ -89,6 +97,14 @@ ul.no-bullet {
 
 ul.no-bullet li {
 	margin-bottom: 6px;
+}
+
+ul.abstand-liste li {
+	margin-bottom: 14px !important;
+}
+
+.kein-abstand-oben {
+	margin-top: 0;
 }
 
 .navbar-default .navbar-nav > li > a,

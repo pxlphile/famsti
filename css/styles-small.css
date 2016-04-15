@@ -57,19 +57,18 @@
 		position:relative;
 	}
 	
+	
+	.abstand-2, .abstand-2-2 {
+		margin-top: inherit;
+	}
+	
+	.abstand-2-2 {
+		margin-bottom: inherit;
+	}
+	
 	#dhbild {
 		margin: 0px !important;
 		padding: 0px !important;
-	}
-	
-	.willkommen-row {
-		height: auto;
-	}
-	.osteo-row {
-		height: auto;
-	}
-	.dorn-row {
-		height: auto;
 	}
 	
 	.jumbotron {
